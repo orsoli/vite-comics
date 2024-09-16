@@ -1,6 +1,7 @@
 <script>
 // Import components 
 import AppHeader from "./components/AppHeader.vue"
+import AppMain from "./components/AppMain.vue"
 
 
 export default {
@@ -11,6 +12,7 @@ export default {
   },
   components: {
     AppHeader,
+    AppMain,
   }
 }
 </script>
@@ -18,6 +20,7 @@ export default {
 <template>
   <div class="wrapper">
     <AppHeader />
+    <AppMain />
 
   </div>
 </template>

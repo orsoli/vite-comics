@@ -1,6 +1,5 @@
 <script>
 export default {
-    name: "",
     data() {
         return {
 
@@ -13,9 +12,20 @@ export default {
 </script>
 
 <template>
-    <div class="">
-
+    <div class="container">
+        <h3> -- > Content goes here < -- </h3>
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+h3 {
+    color: white;
+    line-height: 70px;
+}
+
+.container {
+    width: 800px;
+    height: 70px;
+    margin: 0 auto;
+}
+</style>

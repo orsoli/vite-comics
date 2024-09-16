@@ -6,7 +6,13 @@
 2. Create three macro-blocks comonents.(AppHeader, AppMain, and AppFooter)
     - Added in components folder three new components
 
+3. Compleated AppHeader 
+    - Create data to insert dinamically logo and navbar
 
+4. Compleated AppMain 
+    - Create a contanier for Content
+
+5. Compleated AppFooter 
 
 ### Bonus: 
 **Create an additional component to manage the blue bar with the icons.**
