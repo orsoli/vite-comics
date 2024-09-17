@@ -13,26 +13,27 @@ export default {
 
 <template>
     <main>
+        <div class="jumbotron">
+        </div>
 
         <div class="container">
-            <h3> -- Content goes here -- </h3>
         </div>
     </main>
 </template>
 
-<style scoped>
-img {
-    max-width: 100%;
-}
+<style lang="scss" scoped>
+main {
+    background-image: url('../assets/img/jumbotron.jpg');
+    background-size: cover;
 
-h3 {
-    color: white;
-    line-height: 70px;
-}
+    img {
+        max-width: 100%;
+    }
 
-.container {
-    width: 80%;
-    height: 70px;
-    margin: 0 auto;
+    .container {
+        width: 80%;
+        height: 70px;
+        margin: 0 auto;
+    }
 }
 </style>

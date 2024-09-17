@@ -29,7 +29,6 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
-  padding: 20px 0;
   background-color: #0E0E0E;
   margin: -10px;
 }

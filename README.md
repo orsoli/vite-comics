@@ -16,3 +16,14 @@
 
 ### Bonus: 
 **Create an additional component to manage the blue bar with the icons.**
+
+
+### Descrizione:
+**Continue working in the same repo as yesterday and create a new component that will represent the comic book cards. Use the data.json file and pass them to the Card component via props. Once all the content is dynamically inserted, complete your layout and refine the details with Sass.**
+
+1. Create AppCardsList and ItemCard components
+2. In AppCardList add the data from dc-comics.json
+3. Import ItemCard in AppCardList and pass the data as prop
+4. In ItemCard get data and add prop in data to use each
+5. In AppMin.vue import the AppCardList
+
