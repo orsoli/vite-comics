@@ -87,7 +87,9 @@ export default {
             <nav>
                 <ul>
                     <li v-for="navBar in navBars" :key="navBar.id">
-                        <a href="{{ navBar.link }}">{{ navBar.name }}</a>
+                        <a href="{{ navBar.link }}">
+                            <p> {{ navBar.name }} </p>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -96,6 +98,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+img {
+    max-width: 100%;
+}
+
 header {
 
     background-color: white;
@@ -103,7 +109,7 @@ header {
 
 div.container {
     height: 70px;
-    width: 800px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
