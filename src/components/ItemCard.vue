@@ -46,8 +46,10 @@ export default {
     align-items: center;
 
     img {
-        height: 100px;
         width: 100%;
+        height: 100px;
+        object-fit: cover;
+        object-position: top;
     }
 
     p {
