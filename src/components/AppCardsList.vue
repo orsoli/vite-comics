@@ -91,23 +91,35 @@ export default {
 </script>
 
 <template>
-    <ul class="container">
+    <ul>
         <li v-for="(item, i) in itemList" :key="i">
             <a href="#">
                 <item-card :cardThumb="item.thumb" :cardPrice="item.price" :cardSeries="item.series"
                     :cardType="item.type" />
-
             </a>
         </li>
     </ul>
 </template>
 
 <style lang="scss" scoped>
-template {
-    background-color: #1C1C1C;
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
 
-    .container {
-        width: 80%;
+
+    li {
+        width: calc(100% / 6 - 10px);
+
+    }
+
+    a {
+        display: block;
+        color: white;
+        text-decoration: none;
     }
 }
 </style>

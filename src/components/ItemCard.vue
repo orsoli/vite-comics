@@ -40,6 +40,18 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-    width: calc(100%/6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 100px;
+        width: 100%;
+    }
+
+    p {
+        font-size: 12px;
+    }
 }
 </style>
