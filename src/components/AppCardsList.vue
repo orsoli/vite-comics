@@ -1,8 +1,10 @@
 <script>
+// Imported components
+import ItemCard from "./ItemCard.vue"
+
 export default {
     data() {
         return {
-
             itemList: [
                 {
                     "thumb": "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
@@ -77,11 +79,10 @@ export default {
                     "type": "graphic novel"
                 }
             ]
-
         };
     },
 
-
+    components: { ItemCard, },
 
     methods: {
 
@@ -89,10 +90,18 @@ export default {
 };
 </script>
 
+<!-- itemList: [
+{
+"thumb": "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
+"price": "$19.99",
+"series": "Action Comics",
+"type": "comic book"
+}, -->
 <template>
     <div class="">
-
+        <item-card v-for="(item, i) in itemList" :key="i" :cardThumb="item.thumb" :cardPrice="item.price"
+            :cardSeries="item.series" :cardType="item.type" />
     </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

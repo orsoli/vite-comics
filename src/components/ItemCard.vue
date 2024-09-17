@@ -5,6 +5,26 @@ export default {
 
         };
     },
+
+    props: {
+        cardThumb: {
+            type: String,
+            required: true
+        },
+        cardTPrice: {
+            type: String,
+            required: false
+        },
+        cardSeries: {
+            type: String,
+            required: true
+        },
+        cardType: {
+            type: String,
+            required: false
+        }
+    },
+
     methods: {
 
     }
@@ -12,9 +32,9 @@ export default {
 </script>
 
 <template>
-    <div class="">
+    <div class="card">
 
     </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

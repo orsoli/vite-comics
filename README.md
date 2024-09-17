@@ -1,4 +1,4 @@
-### Description: 
+### Description DAY-1: 
 **Create a new project using Vite and Vue 3 and define the necessary components to structure the layout as per the attached screenshot. Once the macro-block structure is ready, populate the menu items dynamically using the component's data. For today, we prioritize the structure: when everything is solid, we move on to Sass!**
 1. Make a structur scaffholdings.
     - Create folders containing js, styles, imgs,etc.   
@@ -18,7 +18,7 @@
 **Create an additional component to manage the blue bar with the icons.**
 
 
-### Descrizione:
+### Descrizione DAY-2:
 **Continue working in the same repo as yesterday and create a new component that will represent the comic book cards. Use the data.json file and pass them to the Card component via props. Once all the content is dynamically inserted, complete your layout and refine the details with Sass.**
 
 1. Create AppCardsList and ItemCard components
