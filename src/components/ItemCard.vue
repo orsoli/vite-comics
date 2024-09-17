@@ -33,8 +33,13 @@ export default {
 
 <template>
     <div class="card">
-
+        <img :src="cardThumb" :alt="cardSeries">
+        <p>{{ cardSeries }}</p>
     </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.card {
+    width: calc(100%/6);
+}
+</style>

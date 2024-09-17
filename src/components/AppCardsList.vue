@@ -90,18 +90,24 @@ export default {
 };
 </script>
 
-<!-- itemList: [
-{
-"thumb": "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
-"price": "$19.99",
-"series": "Action Comics",
-"type": "comic book"
-}, -->
 <template>
-    <div class="">
-        <item-card v-for="(item, i) in itemList" :key="i" :cardThumb="item.thumb" :cardPrice="item.price"
-            :cardSeries="item.series" :cardType="item.type" />
-    </div>
+    <ul class="container">
+        <li v-for="(item, i) in itemList" :key="i">
+            <a href="#">
+                <item-card :cardThumb="item.thumb" :cardPrice="item.price" :cardSeries="item.series"
+                    :cardType="item.type" />
+
+            </a>
+        </li>
+    </ul>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+template {
+    background-color: #1C1C1C;
+
+    .container {
+        width: 80%;
+    }
+}
+</style>

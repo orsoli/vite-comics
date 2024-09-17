@@ -1,10 +1,17 @@
 <script>
+// Imported components 
+import AppCardList from "./AppCardsList.vue";
+
 export default {
+
     data() {
         return {
 
         };
     },
+
+    components: { AppCardList },
+
     methods: {
 
     }
@@ -17,6 +24,7 @@ export default {
         </div>
 
         <div class="container">
+            <AppCardList />
         </div>
     </main>
 </template>
@@ -25,6 +33,10 @@ export default {
 main {
     background-image: url('../assets/img/jumbotron.jpg');
     background-size: cover;
+
+    .jumbotron {
+        height: 200px;
+    }
 
     img {
         max-width: 100%;
