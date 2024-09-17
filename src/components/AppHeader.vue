@@ -11,7 +11,6 @@ export default {
                     link: "#"
                 },
             ],
-
             navBars: [
                 {
                     id: 2,
@@ -65,8 +64,6 @@ export default {
                 },
                 ", , movies, tv, games, collectibles, videos, fans, news, shop"
             ]
-
-
         };
     },
     methods: {

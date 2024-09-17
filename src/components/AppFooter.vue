@@ -300,6 +300,11 @@ footer {
     .header {
         background-color: #0182F9;
         padding: 1rem;
+        position: sticky;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
     }
 
     .main {
@@ -319,11 +324,16 @@ footer {
             flex-wrap: wrap;
         }
 
+        .nav-bar {
+            position: relative;
+        }
+
         #logo-bg {
             position: absolute;
             top: 0;
             right: 0;
             bottom: 0;
+            z-index: 1;
         }
 
         ul {
@@ -363,6 +373,11 @@ footer {
         justify-content: center;
         align-items: center;
         background-color: #303030;
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
 
         .container {
             width: 80%;
